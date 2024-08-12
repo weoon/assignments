@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Form</title>
+    <link rel="stylesheet" href="./from.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="formgroup">
+                <label for="name">Name</label>
+                <input type="text"  placeholder="Enter Your Name">
+            </div>
+            
+            <div class="formgroup">
+                <label for="email">Email</label>
+                <input type="email" id="email"  placeholder="Enter Your Email">
+            </div>
+
+            <div class="formgroup">
+                <label for="age">Age</label>
+                <input type="number"  placeholder="Enter Your Age">
+            </div>
+            
+            <div class="formgroup">
+                <label>Gender</label>
+                <div class="genderoptions">
+                    
+                    <label for="male" >Male
+                        <input type="radio"  >
+                 
+                    </label>
+                     <label for="female">Female
+                        <input type="radio" >
+                    
+                     </label>
+                  
+                    <label for="other">Other
+                        <input type="radio"  >
+                   
+                    </label>
+                    
+                </div>
+            </div>
+            
+            <div class="formgroup">
+                <label for="occupation">Which Option Best Describes You?</label>
+              
+               
+                <select id="occupation" name="occupation">
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="developer">Developer</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="formgroup">
+                <label>Your Best Programming Languages?</label>
+                <div class="languageoptions">
+                   
+                    <label for="c">C
+                        <input type="checkbox" >
+                    </label>
+                   
+                    
+                    <label for="python">Python
+                        <input type="checkbox" >
+                    </label>
+                 
+                    
+                    <label for="java">Java
+                        <input type="checkbox" >
+                    </label>
+                    
+
+                    <label for="javascript">JavaScript
+                        <input type="checkbox" >
+                    </label>
+                 
+                </div>
+            </div>
+            
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
