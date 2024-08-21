@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.container1 {
+margin: 40PX;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between grid items */
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.top2 {
+    background-color: #87CEFA;
+    padding: 20px;
+    border-radius: 7px;
+    
+}
+
+.mid {
+    grid-column: span 2; /* Span across both columns */
+    background-color: #87CEFA;
+    padding: 20px;
+    border-radius: 7px;
+   
+}
+
+
