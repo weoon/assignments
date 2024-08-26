@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p style="text-align: center;">Group B</p>
+    <p>3. Write the HTML Tag to generate the following table.</p>
+    <table class="routine-table">
+        <tr>
+            <td colspan="4">Routine</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Monday</td>
+            <td rowspan="3">Break</td>
+            <td>Tuesday</td>
+        </tr>
+        <tr>
+            <td>WT</td>
+            <td>DSA</td>
+            <td>SAD</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Statistics</td>
+            <td>Maths</td>
+        </tr>
+    </table>
+    <style>
+        .routine-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.routine-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+    </style>
+    
+
+    <p>4. Write HTML Tag to generate the following Output</p>
+    <ul>
+        <li>
+            FOHSS
+        </li>
+        <ul>
+            <li>BCA</li>
+            <ol>
+                <li>IoT</li>
+            </ol>
+        </ul>
+    </ul>
+    <ul>
+        <li>FOM</li>
+        <ol>
+            <li>BIM</li>
+            <li>IoT</li>
+        </ol>
+    </ul>
+
+    <p>8. Write HTML tag to generate the following Output</p>
+
+<div class="Information" style="font-weight: bold; margin-bottom: 10px;">Student Information</div>
+<form>
+    <table>
+        <tr>
+            <td><label for="first-name">First Name:</label></td>
+            <td><input type="text" ></td>
+        </tr>
+        <tr>
+            <td><label for="second-name">Second Name:</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td>
+                <input type="radio" name="g"> Male
+                <input type="radio" name="g"> Female
+                <input type="radio" name="g"> Other
+            </td>
+        </tr>
+        <tr>
+            <td><label>Subject:</label></td>
+            <td>
+                <input type="checkbox" name="s" > C
+                <input type="checkbox" name="s"> C++
+                <input type="checkbox" name="s"> Java
+            </td>
+        </tr>
+        <tr>
+            <td><label for="comment">Comment:</label></td>
+            <td><input type="text" id="comment"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+    
+</body>
+</html>
